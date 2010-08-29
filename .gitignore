@@ -1,4 +1,14 @@
-*.pbxuser
-*.perspectivev3
 build
+build/
+build/*
+*/build/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
 
+.DS_Store
+profile
+Icon*
+
+.svn
