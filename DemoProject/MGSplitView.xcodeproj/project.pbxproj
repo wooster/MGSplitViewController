@@ -16,9 +16,9 @@
 		2804203C108E9BAB000629CD /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2804203B108E9BAB000629CD /* DetailView.xib */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
-		C98573721200823C001B5F94 /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = C98573711200823C001B5F94 /* MGSplitCornersView.m */; };
-		C9CDF7A111FDA7310016C1C5 /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CDF7A011FDA7310016C1C5 /* MGSplitViewController.m */; };
-		C9CDF83C11FDD8000016C1C5 /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CDF83B11FDD8000016C1C5 /* MGSplitDividerView.m */; };
+		495A951D122B1EDB008724F8 /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A9518122B1EDB008724F8 /* MGSplitCornersView.m */; };
+		495A951E122B1EDB008724F8 /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A951A122B1EDB008724F8 /* MGSplitDividerView.m */; };
+		495A951F122B1EDB008724F8 /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A951C122B1EDB008724F8 /* MGSplitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,16 +36,13 @@
 		28A0AAE50D9B0CCF005BE974 /* MGSplitView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitView_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495A9517122B1EDB008724F8 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitCornersView.h; path = ../src/MGSplitCornersView.h; sourceTree = SOURCE_ROOT; };
+		495A9518122B1EDB008724F8 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitCornersView.m; path = ../src/MGSplitCornersView.m; sourceTree = SOURCE_ROOT; };
+		495A9519122B1EDB008724F8 /* MGSplitDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitDividerView.h; path = ../src/MGSplitDividerView.h; sourceTree = SOURCE_ROOT; };
+		495A951A122B1EDB008724F8 /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitDividerView.m; path = ../src/MGSplitDividerView.m; sourceTree = SOURCE_ROOT; };
+		495A951B122B1EDB008724F8 /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitViewController.h; path = ../src/MGSplitViewController.h; sourceTree = SOURCE_ROOT; };
+		495A951C122B1EDB008724F8 /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitViewController.m; path = ../src/MGSplitViewController.m; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* MGSplitView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MGSplitView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		C98573701200823C001B5F94 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
-		C98573711200823C001B5F94 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
-		C9CDF79F11FDA7310016C1C5 /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitViewController.h; sourceTree = "<group>"; };
-		C9CDF7A011FDA7310016C1C5 /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitViewController.m; sourceTree = "<group>"; };
-		C9CDF7A211FDA7890016C1C5 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
-		C9CDF7A311FDA7890016C1C5 /* Source Code License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Source Code License.rtf"; sourceTree = "<group>"; };
-		C9CDF83A11FDD8000016C1C5 /* MGSplitDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitDividerView.h; sourceTree = "<group>"; };
-		C9CDF83B11FDD8000016C1C5 /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitDividerView.m; sourceTree = "<group>"; };
-		C9CDF92211FE27DE0016C1C5 /* TODO.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +79,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C9CDF7A211FDA7890016C1C5 /* README.markdown */,
-				C9CDF7A311FDA7890016C1C5 /* Source Code License.rtf */,
-				C9CDF92211FE27DE0016C1C5 /* TODO.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -139,12 +133,12 @@
 		C9CDF79E11FDA7140016C1C5 /* MGSplitViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C9CDF79F11FDA7310016C1C5 /* MGSplitViewController.h */,
-				C9CDF7A011FDA7310016C1C5 /* MGSplitViewController.m */,
-				C9CDF83A11FDD8000016C1C5 /* MGSplitDividerView.h */,
-				C9CDF83B11FDD8000016C1C5 /* MGSplitDividerView.m */,
-				C98573701200823C001B5F94 /* MGSplitCornersView.h */,
-				C98573711200823C001B5F94 /* MGSplitCornersView.m */,
+				495A9517122B1EDB008724F8 /* MGSplitCornersView.h */,
+				495A9518122B1EDB008724F8 /* MGSplitCornersView.m */,
+				495A9519122B1EDB008724F8 /* MGSplitDividerView.h */,
+				495A951A122B1EDB008724F8 /* MGSplitDividerView.m */,
+				495A951B122B1EDB008724F8 /* MGSplitViewController.h */,
+				495A951C122B1EDB008724F8 /* MGSplitViewController.m */,
 			);
 			name = MGSplitViewController;
 			sourceTree = "<group>";
@@ -214,9 +208,9 @@
 				1D3623260D0F684500981E51 /* MGSplitViewAppDelegate.m in Sources */,
 				2804200B108E984D000629CD /* RootViewController.m in Sources */,
 				2804200C108E984D000629CD /* DetailViewController.m in Sources */,
-				C9CDF7A111FDA7310016C1C5 /* MGSplitViewController.m in Sources */,
-				C9CDF83C11FDD8000016C1C5 /* MGSplitDividerView.m in Sources */,
-				C98573721200823C001B5F94 /* MGSplitCornersView.m in Sources */,
+				495A951D122B1EDB008724F8 /* MGSplitCornersView.m in Sources */,
+				495A951E122B1EDB008724F8 /* MGSplitDividerView.m in Sources */,
+				495A951F122B1EDB008724F8 /* MGSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
